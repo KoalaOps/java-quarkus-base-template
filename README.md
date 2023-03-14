@@ -1,18 +1,16 @@
-# Getting started with Quarkus
+# Template basic CRUD service with Quarkus
 
 This is a minimal CRUD service exposing a couple of endpoints over REST.
 
-Under the hood, this demo uses:
+Under the hood, this template uses:
 
 - RESTEasy to expose the REST endpoints
 - REST-assured and JUnit 5 for endpoint testing
 
 ## Requirements
 
-To compile and run this demo you will need:
-
-- JDK 11+
-- GraalVM
+- Java version: JDK 11+
+- To run as a native executable: GraalVM
 
 ### Configuring GraalVM and JDK 11+
 
@@ -76,4 +74,4 @@ native executable:
 
 After getting a cup of coffee, you'll be able to run this executable directly:
 
-> ./target/getting-started-1.0.0-SNAPSHOT-runner
+> ./target/<<<SERVICE_NAME>>>-1.0.0-SNAPSHOT-runner
